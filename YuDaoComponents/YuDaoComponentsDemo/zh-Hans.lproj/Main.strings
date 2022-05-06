@@ -1,0 +1,15 @@
+
+/* Class = "UILabel"; text = "Title"; ObjectID = "5kG-D4-lAu"; */
+"5kG-D4-lAu.text" = "Title";
+
+/* Class = "UIButton"; normalTitle = "选择日期"; ObjectID = "SBd-bl-muw"; */
+"SBd-bl-muw.normalTitle" = "选择日期";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "YaU-1w-TwW"; */
+"YaU-1w-TwW.normalTitle" = "Button";
+
+/* Class = "UILabel"; text = "IB拖拽："; ObjectID = "hWZ-Lr-FeH"; */
+"hWZ-Lr-FeH.text" = "IB拖拽：";
+
+/* Class = "UILabel"; text = "代码添加："; ObjectID = "yhh-im-jBw"; */
+"yhh-im-jBw.text" = "代码添加：";

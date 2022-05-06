@@ -1,0 +1,41 @@
+platform :ios, '8.0'
+use_frameworks!
+inhibit_all_warnings!
+
+target 'YuDaoComponents' do
+
+    # 底层相关
+    pod 'Alamofire', '~> 4.7’               # 网络库
+    pod 'HandyJSON', '~> 5.0.0'             # json转模
+    pod 'RxSwift',    '~> 4.0'              # RxSwift
+    pod 'RxCocoa',    '~> 4.0'
+    pod 'MGJRouter', '~>0.9.0'              # 路由(OC)
+
+    # UI
+    pod 'SnapKit', '~> 4.0.0'               # 代码添加约束
+    pod 'NJKWebViewProgress'                # web进度条(OC)
+    pod 'MJRefresh', '~> 3.1.15'            # 上拉下拉控件(OC)
+    pod 'FSCalendar', '~> 2.7.7'            # 日历控件(OC)
+
+end
+
+target 'YuDaoComponentsDemo' do
+    
+    # 底层相关
+    pod 'Alamofire', '~> 4.7'               # 网络库
+    pod 'HandyJSON', '~> 5.0.0'             # json转模
+    pod 'RxSwift',    '~> 4.0'              # RxSwift
+    pod 'RxCocoa',    '~> 4.0'
+    pod 'MGJRouter', '~>0.9.0'              # 路由(OC)
+    
+    # UI
+    pod 'SnapKit', '~> 4.0.0'               # 代码添加约束
+    pod 'NJKWebViewProgress'                # web进度条(OC)
+    pod 'MJRefresh', '~> 3.1.15'            # 上拉下拉控件(OC)
+    pod 'FSCalendar', '~> 2.7.7'            # 日历控件(OC)
+
+end
+
+
+
+

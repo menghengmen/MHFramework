@@ -208,6 +208,8 @@ open class BaseViewControllerViewModel: NSObject {
     public let viewDidAppear = PublishSubject<Void>()
     public let viewWillDisappear = PublishSubject<Void>()
     public let viewDeinit = PublishSubject<Void>()
+
+    
     
     // event to view
     

